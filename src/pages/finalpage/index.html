@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../assets/silverware.svg"/>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Nutrix</title>
+</head>
+
+<body id="editor">
+    <header>
+        <a href="../mealChose">
+            <img class="arrow" src="../../assets/arrow.svg" alt="seta voltar página">
+        </a>
+        <h1 class="header-title">
+            Exibição da dieta
+        </h1>
+        <a href="../homepage">
+            <img class="return" src="../../assets/return.svg" alt="Seta refazer dieta">
+        </a>
+    </header>
+    <div id="wrapper" class="wrapper">
+        <div class="container">
+            <div class="container-title">
+                <h1>Refeições do dia</h1>
+            </div>
+            <div class="container-body">
+                <div id="content" class="content">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+    <footer>
+        <div onclick="downloadPDF()" class="btn-footer">
+            <img src="../../assets/arrow-btn.svg" alt="imagem seta download" />
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

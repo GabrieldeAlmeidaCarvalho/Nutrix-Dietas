@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../../assets/silverware.svg"/>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Nutrix</title>
+</head>
+
+<body>
+  <header>
+    <a href="../nutritionalResults">
+      <img class="arrow" src="../../assets/arrow.svg" alt="seta">
+    </a>
+    <h1 class="header-title">
+      Quantas refeições você realiza por dia?
+    </h1>
+  </header>
+  <main>
+    <ol class="choices">
+      <li onclick="cardSelection()">
+        2x
+      </li>
+      <li onclick="cardSelection()">
+        3x
+      </li>
+      <li onclick="cardSelection()">
+        4x
+      </li>
+      <li onclick="cardSelection()">
+        5x
+      </li>
+      <li onclick="cardSelection()">
+        6x
+      </li>
+    </ol>
+  <footer class="form-footer">
+    <button id="next-button" class="btn-next">
+      <div>Avançar</div><img src="../../assets/arrow2.png" alt="seta">
+    </button>
+  </footer>
+  </main>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
